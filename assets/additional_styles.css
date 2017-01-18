@@ -1,8 +1,13 @@
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 14px;
 }
-
+.navbar{
+  background-color: crimson
+}
+.navbar a{
+  color: white !important;
+}
 h1, h2, h3, h4 {
   font-weight: 700;
 }
@@ -11,7 +16,26 @@ h1, h2, h3, h4 {
   font-family: "Passion One";
   font-size: xx-large;
 }
+.who-delivers{
+  background:url("images/main-hero.jpg") no-repeat scroll center center / cover;
+  padding-top: 150px;
+  height: 500px;
+  color: white
+}
 
+.sound-bites{
+  background-color: gainsboro;
+}
+
+.download-apps{
+  background: url("images/download-hero.jpg") no-repeat scroll center center / cover;
+  color: white;
+  padding-top: 175px;
+  height: 550px;
+}
+.why-order{
+  background-color: gainsboro
+}
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
@@ -88,4 +112,17 @@ h1, h2, h3, h4 {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+footer{
+  background-color: midnightblue;
+  color: white
+}
+
+h4{
+  font-size: 16px
+}
+
+li{
+  font-size: 14px;
+  margin-bottom: 10px
 }
